@@ -1,0 +1,16 @@
+[ // See the onivim documentation for details on the format: // https://onivim.github.io/docs/configuration/key-bindings // Add key bindings here, for example:
+  // { "key": "<TAB>", "command": "workbench.action.quickOpen", when: "editorTextFocus" },
+   { "key": "<space>e", "command": "explorer.toggle", "when": "editorTextFocus"},
+   { "key": "<space>q", "command": ":exit", "when": "editorTextFocus"},
+   { "key": "<space>p", "command": "workbench.action.showCommands", "when": "editorTextFocus"},
+   { "key": "<space>z", "command": "workbench.action.enableZenMode", "when": "editorTextFocus"}, 
+   { "key": "<space>x", "command": "workbench.action.disableZenMode", "when": "editorTextFocus"},
+   { "key": "<space>o", "command": "workbench.action.quickOpen", "when": "editorTextFocus"}, { "key": "<space>jj", "command": "workbench.action.previousEditor", "when": "editorTextFocus"},
+   { "key": "<space>kk", "command": "workbench.action.nextEditor", "when": "editorTextFocus"},
+   
+
+   { "key": "<space>h", "command": "window.moveLeft", "when": "editorTextFocus"}, 
+   { "key": "<space>l", "command": "window.moveRight", "when": "editorTextFocus"},
+   { "key": "<space>1", "command": ":close", "when": "editorTextFocus"},
+   { "key": "<space>l", "command": "window.moveRight", "when": "editorTextFocus"},
+]
